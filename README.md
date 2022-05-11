@@ -1,2 +1,2 @@
-# Javascrip
-Repasando javascript y mejorando mis tecnicas
+# JavaScript
+Repasando javascript y mejorando mis técnicas.
