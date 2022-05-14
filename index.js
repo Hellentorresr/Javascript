@@ -55,3 +55,47 @@ function doIt(nomberOne, nomberTwo) {
 let Operations = doIt(5, 5);
 
 console.log(Operations);
+
+
+//function declaration VR function expression
+//a function declaration can be invoked from any part in our code even when we havent set it
+
+//function expression
+const expression = function () {
+    console.log('This is a function expression that was assigned to a variable');
+    //cannot be call before initialization
+}
+
+expression();
+
+
+////
+////
+////
+// Array, we can use const or let to declare an array
+const firstArray = [];
+const secondArray = [1, true, 'hi there', ['a', 'b', 'c'],
+    [1, 2, 3]
+];
+console.log(secondArray);
+console.log(secondArray[0]);
+console.log(secondArray[4][1]);
+
+// Other way to declare an array
+// ECMAScript 2015 also known as ES6
+const a = ['one', 'two', 'three', 8, 9, 10];
+//console.log(a);
+a.push("black");
+//a.pop();remove the last element from the array
+console.log(a);
+
+
+//
+//
+//Method to execute a function for each element of an array
+//convert elements of an array to elements i of html
+//index to set an id to a each element
+
+a.forEach(function (i, index) {
+    console.log(`<li id="${index}">${i}</i>`);
+});
